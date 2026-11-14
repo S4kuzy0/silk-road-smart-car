@@ -13,6 +13,7 @@
 *.step binary
 *.stp binary
 *.stl binary
+*.hex -text
 *.sldprt binary
 *.sldasm binary
 *.blend binary
