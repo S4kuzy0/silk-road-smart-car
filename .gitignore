@@ -1,0 +1,39 @@
+# 本机记忆、助手指令与个人配置
+/MEMORY.md
+**/[Aa][Gg][Ee][Nn][Tt].md
+**/[Aa][Gg][Ee][Nn][Tt][Ss].md
+**/[Aa][Gg][Ee][Nn][Tt]*[Oo][Vv][Ee][Rr][Rr][Ii][Dd][Ee]*
+.env
+.env.*
+!.env.example
+*.local.*
+.vscode/
+.idea/
+
+# 缓存、依赖和可重建产物
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+build/
+dist/
+
+# 备份和原始报销资料留在本机
+backups/
+archives/
+*.bak
+*.tmp
+*.log
+**/原始票据/
+**/未脱敏凭证/
+
+# 系统与Office临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# CAD、模型、照片、视频、PPT和PDF是项目资料，不统一忽略。
